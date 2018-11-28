@@ -8,7 +8,7 @@
     }
     stage('deploy') {
         input 'Manual Approval'
-        openshiftDeploy(deploymentConfig: 'workshoppp')
+        openshiftDeploy(deploymentConfig: 'workshopp')
     }
     stage('promoting to QA') {
        echo 'fake stage...'
